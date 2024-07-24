@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="search-box">
+                <input type="text" placeholder="enter city name..." spellcheck="false" id="inputCity">
+                <button id="searchBtn"><img src="./assets/icons/search.png"></button>
+            </div>
+
+            <div class="error-section" id="errorSection"></div>
+
+            <div class="initial_section" id="initialSection">
+                <h1>
+                    Weather Application
+                </h1>
+                <p>Enter your city to know todays weather.</p>
+            </div>
+
+            <div class="weather-section" id="weatherDetails">
+         <!-- <div class="hero-display">
+                    <div class="icon-box">
+                        <img src="./assets/weather_icons/.png">
+                    </div>
+                    <div class="main-temp">
+                        <h1>22 °C</h1>
+                        <p>Bengaluru</p>
+                    </div>
+                </div>
+                <div class="feel-like-temp">
+                    <p>Feels like <span id="feelsLike">26</span> °C</p>
+                </div>
+                <div class="min-max-box">
+                    <div class="min-box">
+                        <h2>MIN</h2>
+                        <p id="minTemp">20 °C</p>
+                    </div>
+                    <div class="max-box">
+                        <h2>MAX</h2>
+                        <p id="maxTemp">25 °C</p>
+                    </div>
+                </div>
+                <div class="detail-section">
+                    <div class="weather-comp">
+                        <div class="icon-comp">
+                            <img src="./assets/icons/pressure.png">
+                        </div>
+                        <div class="value-comp">
+                            <h2>Pressure</h2>
+                            <p>1060 millibars</p>
+                        </div>
+                    </div>
+
+                    <div class="weather-comp">
+                        <div class="icon-comp">
+                            <img src="./assets/icons/humidity.png">
+                        </div>
+                        <div class="value-comp">
+                            <h2>Humidity</h2>
+                            <p>23%</p>
+                        </div>
+                    </div>
+
+                    <div class="weather-comp">
+                        <div class="icon-comp">
+                            <img src="./assets/icons/wind.png">
+                        </div>
+                        <div class="value-comp">
+                            <h2>Wind Speed</h2>
+                            <p>7.2 mph NE/E</p>
+                        </div>
+                    </div>
+
+                    <div class="weather-comp">
+                        <div class="icon-comp">
+                            <img src="./assets/icons/visibility.png">
+                        </div>
+                        <div class="value-comp">
+                            <h2>Visibility</h2>
+                            <p>6 KM</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
