@@ -43,13 +43,7 @@ git clone https://github.com/aimless-coder/Weather_App.git
 
 ```
 
-2. Navigate to the project directory:
-
-```bash
-cd Weather_App
-```
-
-3. Open `index.html` in your web browser:
+2. Open `index.html` in your web browser:
 ```bash
 open index.html
 ```
