@@ -34,7 +34,7 @@ const keyAPI = "your_api_key_here";
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/aimless-coder/weather-app.git
+git clone https://github.com/aimless-coder/Weather_App.git
 
 ```
 
