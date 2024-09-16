@@ -3,6 +3,8 @@
 
 This is a simple weather application that allows users to search for current weather conditions in any city. The application fetches weather data from the OpenWeatherMap API and displays it in a user-friendly interface.
 
+To view this project, visit [here](https://aimless-coder.github.io/Weather_App/)
+
 ## Demo
 
 ![Weather App Screenshot 1](screenshot_1.jpg)
